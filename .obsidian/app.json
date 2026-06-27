@@ -1,0 +1,11 @@
+{
+  "showUnsupportedFiles": true,
+  "uriCallbacks": true,
+  "userIgnoreFilters": [
+    ".cache",
+    "llm-wiki/.cache",
+    "llm-wiki/.llm-wiki",
+    ".superpowers",
+    "llm-wiki/.superpowers"
+  ]
+}

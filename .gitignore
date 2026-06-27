@@ -1,0 +1,23 @@
+# IDE
+.trae
+
+# 日志
+logs/
+*.log*
+
+# 依赖
+node_modules/
+*lock.json
+
+# 构建输出
+dist/
+
+# 从外部安装的 skill
+.agents/skills/
+
+# 一些不必要的缓存
+.smart-env/
+
+# 其他
+*.local
+*.local/

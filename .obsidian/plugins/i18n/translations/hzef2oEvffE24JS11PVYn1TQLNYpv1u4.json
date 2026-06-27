@@ -1,0 +1,2312 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "advanced-canvas",
+        "version": "1.0.0",
+        "title": "Advanced Canvas",
+        "description": "Advanced Canvas Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "6.2.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Generating image...",
+                    "target": "正在生成图片..."
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Support the development of Advanced Canvas",
+                    "target": "支持高级画布的开发"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Node not found",
+                    "target": "未找到节点"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "0 / 0",
+                    "target": "0 / 0"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "details",
+                    "target": "details"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "summary",
+                    "target": "summary"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "img",
+                    "target": "img"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Style attribute is missing the \"key\" property",
+                    "target": "样式属性缺少\"key\"属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Style attribute is missing the \"label\" property",
+                    "target": "样式属性缺少\"label\"属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Style attribute is missing the \"options\" property or it is not an array",
+                    "target": "样式属性缺少\"options\"属性或它不是一个数组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Style attribute is missing a default option (option with a \"value\" of null)",
+                    "target": "样式属性缺少默认选项（值为null的选项）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to migrate canvas data:",
+                    "target": "迁移画布数据失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid JSON, repairing through Advanced Canvas:",
+                    "target": "无效JSON，通过高级画布修复："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Canvas metadata failed to parse",
+                    "target": "画布元数据解析失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to update metadata object in canvas file.",
+                    "target": "更新画布文件中的元数据对象失败。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error loading portal data:",
+                    "target": "加载门户数据错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error inserting rule from remote css",
+                    "target": "从远程CSS插入规则错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error loading remote css",
+                    "target": "加载远程CSS错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error loading remote stylesheet",
+                    "target": "加载远程样式表时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error inlining remote css file",
+                    "target": "内联远程CSS文件时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "NodeAdded Efficiency:",
+                    "target": "添加节点效率："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "NodeChanged Efficiency:",
+                    "target": "更改节点效率："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "EdgeAdded Efficiency:",
+                    "target": "添加边效率："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "EdgeChanged Efficiency:",
+                    "target": "更改边效率："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Open",
+                    "target": "打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Save",
+                    "target": "保存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose the file format to export the canvas as.",
+                    "target": "选择导出画布的文件格式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Higher pixel ratios result in higher resolution images but also larger file sizes.",
+                    "target": "更高的像素比会产生更高分辨率的图像，但也会导致文件更大。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This will not include the fonts in the exported SVG. This will make the SVG file smaller.",
+                    "target": "这不会在导出的SVG中包含字体。这将使SVG文件更小。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The theme used for the export.",
+                    "target": "用于导出的主题。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This will add an Obsidian + Advanced Canvas logo to the bottom left.",
+                    "target": "这将在左下角添加一个Obsidian + Advanced Canvas标志。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This will obscure any text on your canvas.",
+                    "target": "这将遮蔽你画布上的任何文本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This will make the background of the image transparent.",
+                    "target": "这将使图像的背景透明。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Export file format",
+                    "target": "导出文件格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Pixel ratio",
+                    "target": "像素比"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Skip font export",
+                    "target": "跳过字体导出"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Theme",
+                    "target": "主题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show logo",
+                    "target": "显示标志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Privacy mode",
+                    "target": "隐私模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Transparent background",
+                    "target": "透明背景"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type to search...",
+                    "target": "输入搜索..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Set Aspect Ratio",
+                    "target": "设置宽高比"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Wrap in slide",
+                    "target": "包裹到幻灯片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Move one layer forward",
+                    "target": "前移一层"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Move one layer backward",
+                    "target": "后移一层"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Bring to Front",
+                    "target": "置于顶层"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Send to Back",
+                    "target": "置于底层"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Remove persistent z-index",
+                    "target": "移除固定层级"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Encapsulate",
+                    "target": "封装"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Export image settings",
+                    "target": "导出图片设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Open GitHub documentation",
+                    "target": "打开GitHub文档"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Requires a reload to take effect.",
+                    "target": "需要重新加载才能生效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "LinkSuggestionsPatcher: No suggest manager found.",
+                    "target": "LinkSuggestionsPatcher：未找到建议管理器。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "AdvancedCanvasEmbed: No subpath provided. This embed will not work as expected.",
+                    "target": "AdvancedCanvasEmbed：未提供子路径。此嵌入将无法按预期工作。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "AdvancedCanvasEmbed: No canvas content found.",
+                    "target": "AdvancedCanvasEmbed：未找到画布内容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Imported edge is not yet loaded :(",
+                    "target": "导入的边尚未加载 :("
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Reload obsidian to apply the changes.",
+                    "target": "重新加载Obsidian以应用更改。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Metadata node not found or version mismatch. Should have been migrated (but wasn't).",
+                    "target": "未找到元数据节点或版本不匹配。本应已迁移（但未迁移）。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No start node found. Please mark a node as a start node through the popup menu.",
+                    "target": "未找到起始节点。请通过弹出菜单将某个节点标记为起始节点。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Copied wikilink to node to clipboard.",
+                    "target": "已将节点的Wiki链接复制到剪贴板。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to copy wikilink to node to clipboard.",
+                    "target": "无法将节点的Wiki链接复制到剪贴板。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "An error occurred while loading portal data. Please check console for details.",
+                    "target": "加载门户数据时发生错误。请查看控制台了解详情。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Updating edges from portals is not supported yet.",
+                    "target": "从门户更新边尚不支持。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Creating edges with both ends in portals are not supported yet.",
+                    "target": "创建两端都在门户中的边尚不支持。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Core plugin \"Properties view\" was not found or isn't enabled. Enable it and restart Obsidian.",
+                    "target": "未找到或未启用核心插件\"属性视图\"。请启用它并重启Obsidian。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Exporting the canvas. Please wait...",
+                    "target": "正在导出画布。请稍候..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "dark",
+                    "source": "Dark",
+                    "target": "深色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "General settings of the Advanced Canvas plugin.",
+                    "target": "Advanced Canvas插件的一般设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The type of node that will be created when double clicking on the canvas.",
+                    "target": "双击画布时将创建的节点类型。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, new nodes will be aligned to the grid.",
+                    "target": "启用后，新节点将对齐到网格。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The default dimensions of a text node.",
+                    "target": "文本节点的默认尺寸。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The default dimensions of a file node.",
+                    "target": "文件节点的默认尺寸。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The minimum size (either width or height) of a node.",
+                    "target": "节点的最小尺寸（宽度或高度）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The maximum width of a node. Set to -1 for no limit.",
+                    "target": "节点的最大宽度。设置为-1表示无限制。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, the font size of e.g. group node titles and edge labels will not increase when zooming out.",
+                    "target": "启用后，例如组节点标题和边标签的字体大小在缩小时不会增大。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Add more commands to the canvas.",
+                    "target": "向画布添加更多命令。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, the canvas will zoom to the cloned node.",
+                    "target": "启用后，画布将缩放到克隆的节点。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The margin between the cloned node and the source node.",
+                    "target": "克隆节点与源节点之间的边距。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The step size for expanding the node.",
+                    "target": "展开节点的步长。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Make .canvas files compatible with the backlinks and outgoing links feature and show the connections in the graph view.",
+                    "target": "使.canvas文件与反向链接和传出链接功能兼容，并在图视图中显示连接。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, you can link and embed a node using [[canvas-file#node-id]] (Use the \"Copy wikilink to node\" command to get an id).",
+                    "target": "启用后，您可以使用[[canvas-file#node-id]]链接和嵌入节点（使用“复制wiki链接到节点”命令获取id）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, the node popup will show a button to copy the [[wikilink]] of the node for easy reference in other notes.",
+                    "target": "启用后，节点弹出窗口将显示一个按钮，用于复制节点的[[wikilink]]，以便在其他笔记中轻松引用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, the file search will be done using the native Obsidian file search.",
+                    "target": "启用后，文件搜索将使用本地Obsidian文件搜索进行。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Automatically create edges between file nodes based their frontmatter links.",
+                    "target": "根据文件节点之间的前置元数据链接自动创建边。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The frontmatter key to fetch the outgoing edges from. (Keep the default to ensure best compatibility.)",
+                    "target": "获取传出边的前置元数据键。（保持默认值以确保最佳兼容性。）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Create portals to other canvases.",
+                    "target": "创建指向其他画布的门户。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, edges into disabled portals will be shown.",
+                    "target": "启用后，将显示进入禁用门户的边。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Group nodes can be collapsed and expanded to keep the canvas organized.",
+                    "target": "组节点可以折叠和展开以保持画布组织性。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, a group that is collapsed show its border while dragging a node.",
+                    "target": "启用后，折叠的组在拖动节点时会显示其边框。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Combine all style attributes of Advanced Canvas in a single dropdown.",
+                    "target": "将Advanced Canvas的所有样式属性合并到一个下拉菜单中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Style your nodes with different shapes and borders.",
+                    "target": "使用不同的形状和边框为节点设置样式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Add custom style settings for nodes. (Go to GitHub for more information)",
+                    "target": "为节点添加自定义样式设置。（前往GitHub获取更多信息）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The default color of a text node. The default range is from 0 to 6, where 0 is no color. The range can be extended by using the Custom Colors feature of Advanced Canvas.",
+                    "target": "文本节点的默认颜色。默认范围为0到6，其中0表示无颜色。可以通过Advanced Canvas的自定义颜色功能扩展范围。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Style your edges with different path styles.",
+                    "target": "使用不同的路径样式为边设置样式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Add custom style settings for edges. (Go to GitHub for more information)",
+                    "target": "为边添加自定义样式设置。（前往GitHub获取更多信息）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When creating a new edge by dragging from a node, the edge will inherit the color of the node it is dragged from.",
+                    "target": "通过从节点拖拽创建新边时，该边将继承其所拖拽节点的颜色。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The default color of an edge. The default range is from 0 to 6, where 0 is no color. The range can be extended by using the Custom Colors feature of Advanced Canvas.",
+                    "target": "边的默认颜色。默认范围为0到6，其中0表示无颜色。可以通过Advanced Canvas的自定义颜色功能扩展范围。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The default line direction of an edge.",
+                    "target": "边的默认线方向。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, the edge style will be updated while dragging an edge.",
+                    "target": "启用后，拖拽边缘时边缘样式将更新。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, the square path's corners will be rounded.",
+                    "target": "启用后，方形路径的角将变为圆角。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, the A* path style will allow diagonal paths.",
+                    "target": "启用后，A*路径样式将允许对角线路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, the A* path style will be rounded.",
+                    "target": "启用后，A*路径样式将变为圆角。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Floating edges are automatically placed on the most suitable side of the node.",
+                    "target": "浮动边缘会自动放置在节点最合适的一侧。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Allow floating edges creation by dragging the edge over the target node without placing it over a specific side connection point. (If disabled, floating edges can only be created and used by other Advanced Canvas features.)",
+                    "target": "允许通过将边缘拖拽到目标节点上而不放置在特定侧连接点上来创建浮动边缘。（如果禁用，浮动边缘只能由其他高级画布功能创建和使用。）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, the \"from\" side of the edge will always be floating.",
+                    "target": "启用后，边缘的“来自”侧将始终为浮动。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Flip the direction of edges using the popup menu.",
+                    "target": "使用弹出菜单翻转边缘方向。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Create a presentation from your canvas.",
+                    "target": "从画布创建演示文稿。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "If turned off, you can still set the start node using the corresponding command.",
+                    "target": "如果关闭，您仍然可以使用相应命令设置起始节点。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The default dimensions of a slide.",
+                    "target": "幻灯片的默认尺寸。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The padding of the slide when wrapping the canvas in a slide.",
+                    "target": "在幻灯片中包裹画布时幻灯片的填充。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, the viewport will be reset to the original position after the presentation ends.",
+                    "target": "启用后，演示结束后视口将重置到原始位置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, you can use the arrow keys to change slides in presentation mode.",
+                    "target": "启用后，您可以在演示模式下使用箭头键切换幻灯片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, you can use the PgUp/PgDown keys to change slides in presentation mode (Makes the presentation mode compatible with most presentation remotes).",
+                    "target": "启用后，您可以在演示模式下使用PgUp/PgDown键切换幻灯片（使演示模式兼容大多数演示遥控器）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, the canvas will zoom to the slide without padding.",
+                    "target": "启用后，画布将缩放到幻灯片而没有填充。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, the zoom will not be clamped while presenting.",
+                    "target": "启用后，演示时缩放不会被限制。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, presentations automatically request fullscreen. Disable to keep Obsidian windowed during presentations.",
+                    "target": "启用后，演示自动请求全屏。禁用可在演示期间保持Obsidian窗口化。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The duration of the slide transition animation in seconds. Set to 0 to disable the animation.",
+                    "target": "幻灯片过渡动画的持续时间（秒）。设置为0以禁用动画。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The intensity of the slide transition animation. The higher the value, the more the canvas will zoom out before zooming in on the next slide.",
+                    "target": "幻灯片过渡动画的强度。值越高，画布在放大到下一张幻灯片之前缩小得越多。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Change the persistent z-index of nodes using the context menu.",
+                    "target": "使用上下文菜单更改节点的持久化z-index。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, you can move nodes one layer forward or backward.",
+                    "target": "启用后，您可以将节点向前或向后移动一层。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Change the aspect ratio of nodes using the context menu.",
+                    "target": "使用上下文菜单更改节点的宽高比。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Automatically resize the height of a node to fit the content.",
+                    "target": "自动调整节点高度以适合内容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, the auto resize feature will be enabled by default for all nodes.",
+                    "target": "启用后，自动调整大小功能将默认对所有节点启用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "The maximum height of the node when auto resizing (-1 for unlimited).",
+                    "target": "自动调整大小时节点的最大高度（-1表示无限制）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, the height of the node will snap to the grid.",
+                    "target": "启用后，节点的高度将吸附到网格。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Encapsulate a selection of nodes and edges into a new canvas using the context menu.",
+                    "target": "使用上下文菜单将选定的节点和边封装到新画布中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Improve the readonly mode.",
+                    "target": "改进只读模式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, the background grid will be hidden when in readonly mode.",
+                    "target": "启用后，只读模式下将隐藏背景网格。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Highlight outgoing (and optionally incoming) edges of a selected node.",
+                    "target": "高亮选中节点的出边（可选入边）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "When enabled, incoming edges will also be highlighted.",
+                    "target": "启用后，入边也会被高亮。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select edges connected to the selected node(s) using the popup menu.",
+                    "target": "使用弹出菜单选择连接到选中节点的边。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Select incoming or outgoing edges using separate popup menu items.",
+                    "target": "使用单独的弹出菜单项选择入边或出边。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Focus on a single node and blur all other nodes.",
+                    "target": "聚焦单个节点并模糊所有其他节点。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Text Alignment",
+                    "target": "文本对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Left",
+                    "target": "左对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Center",
+                    "target": "居中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Right",
+                    "target": "右对齐"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Shape",
+                    "target": "形状"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Round Rectangle",
+                    "target": "圆角矩形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Pill",
+                    "target": "药丸"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Diamond",
+                    "target": "菱形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Parallelogram",
+                    "target": "平行四边形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Circle",
+                    "target": "圆形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Predefined Process",
+                    "target": "预定义过程"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Document",
+                    "target": "文档"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Database",
+                    "target": "数据库"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Border",
+                    "target": "边框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Solid",
+                    "target": "实线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Dashed",
+                    "target": "虚线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Dotted",
+                    "target": "点线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Invisible",
+                    "target": "不可见"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Path Style",
+                    "target": "路径样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Short Dashed",
+                    "target": "短虚线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Long Dashed",
+                    "target": "长虚线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Arrow Style",
+                    "target": "箭头样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Triangle",
+                    "target": "三角形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Triangle Outline",
+                    "target": "三角形轮廓"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Thin Triangle",
+                    "target": "细三角形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Halved Triangle",
+                    "target": "半三角形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Diamond Outline",
+                    "target": "菱形轮廓"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Circle Outline",
+                    "target": "圆形轮廓"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Blunt",
+                    "target": "钝头"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Pathfinding Method",
+                    "target": "寻路方法"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Bezier",
+                    "target": "贝塞尔"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Direct",
+                    "target": "直接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Square",
+                    "target": "方形"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "General",
+                    "target": "常规"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Node type on double click",
+                    "target": "双击时的节点类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Always align new nodes to grid",
+                    "target": "始终将新节点对齐到网格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Default text node dimensions",
+                    "target": "默认文本节点尺寸"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Default file node dimensions",
+                    "target": "默认文件节点尺寸"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Minimum node size",
+                    "target": "最小节点大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Maximum node width",
+                    "target": "最大节点宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Disable font size relative to zoom",
+                    "target": "禁用相对于缩放的字体大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Extended commands",
+                    "target": "扩展命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Zoom to cloned node",
+                    "target": "缩放到克隆节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Clone node margin",
+                    "target": "克隆节点边距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Expand node step size",
+                    "target": "展开节点步长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Enable .canvas metadata cache compatibility",
+                    "target": "启用.canvas元数据缓存兼容性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Enable support for linking to a node using a [[wikilink]]",
+                    "target": "启用使用[[wikilink]]链接到节点的支持"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Show button to copy node [[wikilink]]",
+                    "target": "显示复制节点[[wikilink]]的按钮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Native-like file search",
+                    "target": "类似原生的文件搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Auto file node edges",
+                    "target": "自动文件节点边缘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Frontmatter key name",
+                    "target": "前置元数据键名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Portals",
+                    "target": "门户"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Show edges into disabled portals",
+                    "target": "显示进入禁用门户的边缘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Collapsible groups",
+                    "target": "可折叠组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Collapsed group preview on drag",
+                    "target": "拖拽时折叠组预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Combine custom styles",
+                    "target": "组合自定义样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Node styling",
+                    "target": "节点样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Custom node style settings",
+                    "target": "自定义节点样式设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Default text node color",
+                    "target": "默认文本节点颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Default text node style attributes",
+                    "target": "默认文本节点样式属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Edges styling",
+                    "target": "边样式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Custom edge style settings",
+                    "target": "自定义边样式设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Inherit edge color from node",
+                    "target": "从节点继承边颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Default edge color",
+                    "target": "默认边颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Default edge line direction",
+                    "target": "默认边线方向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Default edge style attributes",
+                    "target": "默认边缘样式属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Update edge style while dragging (Can be very slow)",
+                    "target": "拖拽时更新边缘样式（可能非常慢）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Square path rounded",
+                    "target": "方形路径圆角"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "A* allow diagonal",
+                    "target": "A* 允许斜向"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "A* rounded path",
+                    "target": "A* 圆角路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Floating edges (auto edge side)",
+                    "target": "浮动边缘（自动边缘侧）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Allow floating edges creation",
+                    "target": "允许创建浮动边缘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "New edge from side floating",
+                    "target": "从侧面浮动的新边缘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Flip edges",
+                    "target": "翻转边缘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Presentations",
+                    "target": "演示文稿"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Show \"Set Start Node\" in node popup",
+                    "target": "在节点弹出菜单中显示\"设置起始节点\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Default slide dimensions",
+                    "target": "默认幻灯片尺寸"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Wrap in slide padding",
+                    "target": "包裹在幻灯片内边距中"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Reset viewport on presentation end",
+                    "target": "演示结束时重置视口"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Use arrow keys to change slides",
+                    "target": "使用箭头键切换幻灯片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Use PgUp/PgDown keys to change slides",
+                    "target": "使用PgUp/PgDown键切换幻灯片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Zoom to slide without padding",
+                    "target": "无内边距缩放至幻灯片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Use unclamped zoom while presenting",
+                    "target": "演示时使用无约束缩放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Enter fullscreen while presenting",
+                    "target": "演示时进入全屏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Slide transition animation duration",
+                    "target": "幻灯片过渡动画时长"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Slide transition animation intensity",
+                    "target": "幻灯片过渡动画强度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Z ordering controls",
+                    "target": "Z轴排序控制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Show one layer shift options",
+                    "target": "显示单层移位选项"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Aspect ratio control",
+                    "target": "宽高比控制"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Variable breakpoint",
+                    "target": "变量断点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Auto resize node",
+                    "target": "自动调整节点大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Enable auto resize by default",
+                    "target": "默认启用自动调整大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Max height",
+                    "target": "最大高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Snap to grid",
+                    "target": "对齐到网格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Canvas encapsulation",
+                    "target": "画布封装"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Better readonly",
+                    "target": "更好的只读"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Hide background grid when in readonly",
+                    "target": "只读时隐藏背景网格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Edge highlight",
+                    "target": "边缘高亮"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Highlight incoming edges",
+                    "target": "高亮传入边缘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Edge selection",
+                    "target": "边缘选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Select edge by direction",
+                    "target": "按方向选择边缘"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Focus mode",
+                    "target": "聚焦模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Drag to add group",
+                    "target": "拖拽添加组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Drag to add slide",
+                    "target": "拖拽添加幻灯片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Set as start slide",
+                    "target": "设为起始幻灯片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Disable node popup",
+                    "target": "禁用节点弹出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Disable zoom",
+                    "target": "禁用缩放"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Disable pan",
+                    "target": "禁用平移"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Copy wikilink to node",
+                    "target": "复制维基链接到节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Properties",
+                    "target": "属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Focus Mode",
+                    "target": "聚焦模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Flip Edge",
+                    "target": "翻转边"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Select Connected Edges",
+                    "target": "选择连接的边"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Select Outgoing Edges",
+                    "target": "选择出边"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Select Incoming Edges",
+                    "target": "选择入边"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "light",
+                    "source": "Light",
+                    "target": "灯光"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Group selected nodes",
+                    "target": "分组选定节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create new slide",
+                    "target": "创建新幻灯片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Set start node",
+                    "target": "设置起始节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start presentation",
+                    "target": "开始演示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Continue presentation",
+                    "target": "继续演示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "End presentation",
+                    "target": "结束演示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Previous node",
+                    "target": "上一个节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Next node",
+                    "target": "下一个节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Encapsulate selection",
+                    "target": "封装选定内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle readonly",
+                    "target": "切换只读"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create text node",
+                    "target": "创建文本节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create file node",
+                    "target": "创建文件节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select all edges",
+                    "target": "选择所有边"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Zoom to selection",
+                    "target": "缩放到选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Zoom to fit",
+                    "target": "缩放到适应"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Flip selection horizontally",
+                    "target": "水平翻转选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Flip selection vertically",
+                    "target": "垂直翻转选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select connected edges",
+                    "target": "选择连接的边"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select incoming edges",
+                    "target": "选择传入的边"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Select outgoing edges",
+                    "target": "选择出边"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Swap nodes",
+                    "target": "交换节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy wikilink to node",
+                    "target": "复制维基链接到节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pull outgoing links to canvas",
+                    "target": "拉取出边链接到画布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Pull backlinks to canvas",
+                    "target": "拉取反向链接到画布"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle collapse group",
+                    "target": "切换折叠组"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle Focus Mode",
+                    "target": "切换聚焦模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Export canvas as image",
+                    "target": "导出画布为图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Export selected nodes as image",
+                    "target": "导出选中的节点为图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "png",
+                    "source": "PNG",
+                    "target": "PNG"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "svg",
+                    "source": "SVG",
+                    "target": "SVG"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Text",
+                    "target": "文本"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error('Style attribute is missing the \"key\" property')",
+                    "target": "error('Style attribute is missing the \"key\" property')"
+                },
+                {
+                    "source": "error('Style attribute is missing the \"label\" property')",
+                    "target": "error('Style attribute is missing the \"label\" property')"
+                },
+                {
+                    "source": "error('Style attribute is missing the \"options\" property or it is not an array')",
+                    "target": "error('Style attribute is missing the \"options\" property or it is not an array')"
+                },
+                {
+                    "source": "error(`Style attribute option (${(_a = option.value) != null ? _a : option.label}) is missing the \"icon\" property`)",
+                    "target": "error(`Style attribute option (${(_a = option.value) != null ? _a : option.label}) is missing the \"icon\" property`)"
+                },
+                {
+                    "source": "error(`Style attribute option (${option.value}) is missing the \"label\" property`)",
+                    "target": "error(`Style attribute option (${option.value}) is missing the \"label\" property`)"
+                },
+                {
+                    "source": "error(`Style attribute option (${option.label}) is missing the \"value\" property`)",
+                    "target": "error(`Style attribute option (${option.label}) is missing the \"value\" property`)"
+                },
+                {
+                    "source": "error('Style attribute is missing a default option (option with a \"value\" of null)')",
+                    "target": "error('Style attribute is missing a default option (option with a \"value\" of null)')"
+                },
+                {
+                    "source": "setTooltip(\"Open GitHub documentation\")",
+                    "target": "setTooltip(\"Open GitHub documentation\")"
+                },
+                {
+                    "source": "setTooltip(\"Requires a reload to take effect.\")",
+                    "target": "setTooltip(\"Requires a reload to take effect.\")"
+                },
+                {
+                    "source": "Notice(\"Reload obsidian to apply the changes.\")",
+                    "target": "Notice(\"Reload obsidian to apply the changes.\")"
+                },
+                {
+                    "source": "error(`No migration function found for version ${version}. Critical error!`)",
+                    "target": "error(`No migration function found for version ${version}. Critical error!`)"
+                },
+                {
+                    "source": "Notice(`Canvas indexing taking a long time for file ${file.path}`)",
+                    "target": "Notice(`Canvas indexing taking a long time for file ${file.path}`)"
+                },
+                {
+                    "source": "error(\"Canvas metadata failed to parse\", file);\n    }\n  }\n  static async computeCanvasMetadataAsync(data) {\n    var _a, _b, _c, _d, _e;\n    const content = JSON.parse(data || \"{}\")",
+                    "target": "error(\"Canvas metadata failed to parse\", file);\n    }\n  }\n  static async computeCanvasMetadataAsync(data) {\n    var _a, _b, _c, _d, _e;\n    const content = JSON.parse(data || \"{}\")"
+                },
+                {
+                    "source": "error(\"Failed to update metadata object in canvas file.\")",
+                    "target": "error(\"Failed to update metadata object in canvas file.\")"
+                },
+                {
+                    "source": "Notice(\"Metadata node not found or version mismatch. Should have been migrated (but wasn't).\")",
+                    "target": "Notice(\"Metadata node not found or version mismatch. Should have been migrated (but wasn't).\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Type to search...\")",
+                    "target": "setPlaceholder(\"Type to search...\")"
+                },
+                {
+                    "source": "setTitle(\"Set Aspect Ratio\")",
+                    "target": "setTitle(\"Set Aspect Ratio\")"
+                },
+                {
+                    "source": "setTitle(\"Wrap in slide\")",
+                    "target": "setTitle(\"Wrap in slide\")"
+                },
+                {
+                    "source": "Notice(\"No start node found. Please mark a node as a start node through the popup menu.\")",
+                    "target": "Notice(\"No start node found. Please mark a node as a start node through the popup menu.\")"
+                },
+                {
+                    "source": "setTitle(\"Move one layer forward\")",
+                    "target": "setTitle(\"Move one layer forward\")"
+                },
+                {
+                    "source": "setTitle(\"Move one layer backward\")",
+                    "target": "setTitle(\"Move one layer backward\")"
+                },
+                {
+                    "source": "setTitle(\"Bring to Front\")",
+                    "target": "setTitle(\"Bring to Front\")"
+                },
+                {
+                    "source": "setTitle(\"Send to Back\")",
+                    "target": "setTitle(\"Send to Back\")"
+                },
+                {
+                    "source": "setTitle(\"Remove persistent z-index\")",
+                    "target": "setTitle(\"Remove persistent z-index\")"
+                },
+                {
+                    "source": "error(\"Error loading portal data:\", error);\n          new import_obsidian16.Notice(\"An error occurred while loading portal data. Please check console for details.\")",
+                    "target": "error(\"Error loading portal data:\", error);\n          new import_obsidian16.Notice(\"An error occurred while loading portal data. Please check console for details.\")"
+                },
+                {
+                    "source": "Notice(\"Updating edges from portals is not supported yet.\")",
+                    "target": "Notice(\"Updating edges from portals is not supported yet.\")"
+                },
+                {
+                    "source": "Notice(\"Creating edges with both ends in portals are not supported yet.\")",
+                    "target": "Notice(\"Creating edges with both ends in portals are not supported yet.\")"
+                },
+                {
+                    "source": "Notice(`Core plugin \"Properties view\" was not found or isn't enabled. Enable it and restart Obsidian.`)",
+                    "target": "Notice(`Core plugin \"Properties view\" was not found or isn't enabled. Enable it and restart Obsidian.`)"
+                },
+                {
+                    "source": "setTitle(\"Export image settings\")",
+                    "target": "setTitle(\"Export image settings\")"
+                },
+                {
+                    "source": "setName(\"Export file format\")",
+                    "target": "setName(\"Export file format\")"
+                },
+                {
+                    "source": "setDesc(\"Choose the file format to export the canvas as.\")",
+                    "target": "setDesc(\"Choose the file format to export the canvas as.\")"
+                },
+                {
+                    "source": "setName(\"Pixel ratio\")",
+                    "target": "setName(\"Pixel ratio\")"
+                },
+                {
+                    "source": "setDesc(\"Higher pixel ratios result in higher resolution images but also larger file sizes.\")",
+                    "target": "setDesc(\"Higher pixel ratios result in higher resolution images but also larger file sizes.\")"
+                },
+                {
+                    "source": "setName(\"Skip font export\")",
+                    "target": "setName(\"Skip font export\")"
+                },
+                {
+                    "source": "setDesc(\"This will not include the fonts in the exported SVG. This will make the SVG file smaller.\")",
+                    "target": "setDesc(\"This will not include the fonts in the exported SVG. This will make the SVG file smaller.\")"
+                },
+                {
+                    "source": "setDesc(\"The theme used for the export.\")",
+                    "target": "setDesc(\"The theme used for the export.\")"
+                },
+                {
+                    "source": "setName(\"Show logo\")",
+                    "target": "setName(\"Show logo\")"
+                },
+                {
+                    "source": "setDesc(\"This will add an Obsidian + Advanced Canvas logo to the bottom left.\")",
+                    "target": "setDesc(\"This will add an Obsidian + Advanced Canvas logo to the bottom left.\")"
+                },
+                {
+                    "source": "setName(\"Privacy mode\")",
+                    "target": "setName(\"Privacy mode\")"
+                },
+                {
+                    "source": "setDesc(\"This will obscure any text on your canvas.\")",
+                    "target": "setDesc(\"This will obscure any text on your canvas.\")"
+                },
+                {
+                    "source": "setName(\"Transparent background\")",
+                    "target": "setName(\"Transparent background\")"
+                },
+                {
+                    "source": "setDesc(\"This will make the background of the image transparent.\")",
+                    "target": "setDesc(\"This will make the background of the image transparent.\")"
+                },
+                {
+                    "source": "Notice(\"Exporting the canvas. Please wait...\")",
+                    "target": "Notice(\"Exporting the canvas. Please wait...\")"
+                },
+                {
+                    "source": "text: \"\"",
+                    "target": "text: \"\""
+                },
+                {
+                    "source": "description: \"General settings of the Advanced Canvas plugin.\"",
+                    "target": "description: \"General settings of the Advanced Canvas plugin.\""
+                },
+                {
+                    "source": "description: \"The type of node that will be created when double clicking on the canvas.\"",
+                    "target": "description: \"The type of node that will be created when double clicking on the canvas.\""
+                },
+                {
+                    "source": "description: \"When enabled, new nodes will be aligned to the grid.\"",
+                    "target": "description: \"When enabled, new nodes will be aligned to the grid.\""
+                },
+                {
+                    "source": "description: \"The default dimensions of a text node.\"",
+                    "target": "description: \"The default dimensions of a text node.\""
+                },
+                {
+                    "source": "description: \"The default dimensions of a file node.\"",
+                    "target": "description: \"The default dimensions of a file node.\""
+                },
+                {
+                    "source": "description: \"The minimum size (either width or height) of a node.\"",
+                    "target": "description: \"The minimum size (either width or height) of a node.\""
+                },
+                {
+                    "source": "description: \"The maximum width of a node. Set to -1 for no limit.\"",
+                    "target": "description: \"The maximum width of a node. Set to -1 for no limit.\""
+                },
+                {
+                    "source": "description: \"When enabled, the font size of e.g. group node titles and edge labels will not increase when zooming out.\"",
+                    "target": "description: \"When enabled, the font size of e.g. group node titles and edge labels will not increase when zooming out.\""
+                },
+                {
+                    "source": "description: \"Add more commands to the canvas.\"",
+                    "target": "description: \"Add more commands to the canvas.\""
+                },
+                {
+                    "source": "description: \"When enabled, the canvas will zoom to the cloned node.\"",
+                    "target": "description: \"When enabled, the canvas will zoom to the cloned node.\""
+                },
+                {
+                    "source": "description: \"The margin between the cloned node and the source node.\"",
+                    "target": "description: \"The margin between the cloned node and the source node.\""
+                },
+                {
+                    "source": "description: \"The step size for expanding the node.\"",
+                    "target": "description: \"The step size for expanding the node.\""
+                },
+                {
+                    "source": "description: \"Make .canvas files compatible with the backlinks and outgoing links feature and show the connections in the graph view.\"",
+                    "target": "description: \"Make .canvas files compatible with the backlinks and outgoing links feature and show the connections in the graph view.\""
+                },
+                {
+                    "source": "description: 'When enabled, you can link and embed a node using [[canvas-file#node-id]] (Use the \"Copy wikilink to node\" command to get an id).'",
+                    "target": "description: 'When enabled, you can link and embed a node using [[canvas-file#node-id]] (Use the \"Copy wikilink to node\" command to get an id).'"
+                },
+                {
+                    "source": "description: \"When enabled, the node popup will show a button to copy the [[wikilink]] of the node for easy reference in other notes.\"",
+                    "target": "description: \"When enabled, the node popup will show a button to copy the [[wikilink]] of the node for easy reference in other notes.\""
+                },
+                {
+                    "source": "description: \"When enabled, the file search will be done using the native Obsidian file search.\"",
+                    "target": "description: \"When enabled, the file search will be done using the native Obsidian file search.\""
+                },
+                {
+                    "source": "description: \"Automatically create edges between file nodes based their frontmatter links.\"",
+                    "target": "description: \"Automatically create edges between file nodes based their frontmatter links.\""
+                },
+                {
+                    "source": "description: \"The frontmatter key to fetch the outgoing edges from. (Keep the default to ensure best compatibility.)\"",
+                    "target": "description: \"The frontmatter key to fetch the outgoing edges from. (Keep the default to ensure best compatibility.)\""
+                },
+                {
+                    "source": "description: \"Create portals to other canvases.\"",
+                    "target": "description: \"Create portals to other canvases.\""
+                },
+                {
+                    "source": "description: \"When enabled, edges into disabled portals will be shown.\"",
+                    "target": "description: \"When enabled, edges into disabled portals will be shown.\""
+                },
+                {
+                    "source": "description: \"Group nodes can be collapsed and expanded to keep the canvas organized.\"",
+                    "target": "description: \"Group nodes can be collapsed and expanded to keep the canvas organized.\""
+                },
+                {
+                    "source": "description: \"When enabled, a group that is collapsed show its border while dragging a node.\"",
+                    "target": "description: \"When enabled, a group that is collapsed show its border while dragging a node.\""
+                },
+                {
+                    "source": "description: \"Combine all style attributes of Advanced Canvas in a single dropdown.\"",
+                    "target": "description: \"Combine all style attributes of Advanced Canvas in a single dropdown.\""
+                },
+                {
+                    "source": "description: \"Style your nodes with different shapes and borders.\"",
+                    "target": "description: \"Style your nodes with different shapes and borders.\""
+                },
+                {
+                    "source": "description: \"Add custom style settings for nodes. (Go to GitHub for more information)\"",
+                    "target": "description: \"Add custom style settings for nodes. (Go to GitHub for more information)\""
+                },
+                {
+                    "source": "description: \"The default color of a text node. The default range is from 0 to 6, where 0 is no color. The range can be extended by using the Custom Colors feature of Advanced Canvas.\"",
+                    "target": "description: \"The default color of a text node. The default range is from 0 to 6, where 0 is no color. The range can be extended by using the Custom Colors feature of Advanced Canvas.\""
+                },
+                {
+                    "source": "description: \"Style your edges with different path styles.\"",
+                    "target": "description: \"Style your edges with different path styles.\""
+                },
+                {
+                    "source": "description: \"Add custom style settings for edges. (Go to GitHub for more information)\"",
+                    "target": "description: \"Add custom style settings for edges. (Go to GitHub for more information)\""
+                },
+                {
+                    "source": "description: \"When creating a new edge by dragging from a node, the edge will inherit the color of the node it is dragged from.\"",
+                    "target": "description: \"When creating a new edge by dragging from a node, the edge will inherit the color of the node it is dragged from.\""
+                },
+                {
+                    "source": "description: \"The default color of an edge. The default range is from 0 to 6, where 0 is no color. The range can be extended by using the Custom Colors feature of Advanced Canvas.\"",
+                    "target": "description: \"The default color of an edge. The default range is from 0 to 6, where 0 is no color. The range can be extended by using the Custom Colors feature of Advanced Canvas.\""
+                },
+                {
+                    "source": "description: \"The default line direction of an edge.\"",
+                    "target": "description: \"The default line direction of an edge.\""
+                },
+                {
+                    "source": "description: \"When enabled, the edge style will be updated while dragging an edge.\"",
+                    "target": "description: \"When enabled, the edge style will be updated while dragging an edge.\""
+                },
+                {
+                    "source": "description: \"When enabled, the square path's corners will be rounded.\"",
+                    "target": "description: \"When enabled, the square path's corners will be rounded.\""
+                },
+                {
+                    "source": "description: \"When enabled, the A* path style will allow diagonal paths.\"",
+                    "target": "description: \"When enabled, the A* path style will allow diagonal paths.\""
+                },
+                {
+                    "source": "description: \"When enabled, the A* path style will be rounded.\"",
+                    "target": "description: \"When enabled, the A* path style will be rounded.\""
+                },
+                {
+                    "source": "description: \"Floating edges are automatically placed on the most suitable side of the node.\"",
+                    "target": "description: \"Floating edges are automatically placed on the most suitable side of the node.\""
+                },
+                {
+                    "source": "description: \"Allow floating edges creation by dragging the edge over the target node without placing it over a specific side connection point. (If disabled, floating edges can only be created and used by other Advanced Canvas features.)\"",
+                    "target": "description: \"Allow floating edges creation by dragging the edge over the target node without placing it over a specific side connection point. (If disabled, floating edges can only be created and used by other Advanced Canvas features.)\""
+                },
+                {
+                    "source": "description: 'When enabled, the \"from\" side of the edge will always be floating.'",
+                    "target": "description: 'When enabled, the \"from\" side of the edge will always be floating.'"
+                },
+                {
+                    "source": "description: \"Flip the direction of edges using the popup menu.\"",
+                    "target": "description: \"Flip the direction of edges using the popup menu.\""
+                },
+                {
+                    "source": "description: \"Create a presentation from your canvas.\"",
+                    "target": "description: \"Create a presentation from your canvas.\""
+                },
+                {
+                    "source": "description: \"If turned off, you can still set the start node using the corresponding command.\"",
+                    "target": "description: \"If turned off, you can still set the start node using the corresponding command.\""
+                },
+                {
+                    "source": "description: \"The default dimensions of a slide.\"",
+                    "target": "description: \"The default dimensions of a slide.\""
+                },
+                {
+                    "source": "description: \"The padding of the slide when wrapping the canvas in a slide.\"",
+                    "target": "description: \"The padding of the slide when wrapping the canvas in a slide.\""
+                },
+                {
+                    "source": "description: \"When enabled, the viewport will be reset to the original position after the presentation ends.\"",
+                    "target": "description: \"When enabled, the viewport will be reset to the original position after the presentation ends.\""
+                },
+                {
+                    "source": "description: \"When enabled, you can use the arrow keys to change slides in presentation mode.\"",
+                    "target": "description: \"When enabled, you can use the arrow keys to change slides in presentation mode.\""
+                },
+                {
+                    "source": "description: \"When enabled, you can use the PgUp/PgDown keys to change slides in presentation mode (Makes the presentation mode compatible with most presentation remotes).\"",
+                    "target": "description: \"When enabled, you can use the PgUp/PgDown keys to change slides in presentation mode (Makes the presentation mode compatible with most presentation remotes).\""
+                },
+                {
+                    "source": "description: \"When enabled, the canvas will zoom to the slide without padding.\"",
+                    "target": "description: \"When enabled, the canvas will zoom to the slide without padding.\""
+                },
+                {
+                    "source": "description: \"When enabled, the zoom will not be clamped while presenting.\"",
+                    "target": "description: \"When enabled, the zoom will not be clamped while presenting.\""
+                },
+                {
+                    "source": "description: \"When enabled, presentations automatically request fullscreen. Disable to keep Obsidian windowed during presentations.\"",
+                    "target": "description: \"When enabled, presentations automatically request fullscreen. Disable to keep Obsidian windowed during presentations.\""
+                },
+                {
+                    "source": "description: \"The duration of the slide transition animation in seconds. Set to 0 to disable the animation.\"",
+                    "target": "description: \"The duration of the slide transition animation in seconds. Set to 0 to disable the animation.\""
+                },
+                {
+                    "source": "description: \"The intensity of the slide transition animation. The higher the value, the more the canvas will zoom out before zooming in on the next slide.\"",
+                    "target": "description: \"The intensity of the slide transition animation. The higher the value, the more the canvas will zoom out before zooming in on the next slide.\""
+                },
+                {
+                    "source": "description: \"Change the persistent z-index of nodes using the context menu.\"",
+                    "target": "description: \"Change the persistent z-index of nodes using the context menu.\""
+                },
+                {
+                    "source": "description: \"When enabled, you can move nodes one layer forward or backward.\"",
+                    "target": "description: \"When enabled, you can move nodes one layer forward or backward.\""
+                },
+                {
+                    "source": "description: \"Change the aspect ratio of nodes using the context menu.\"",
+                    "target": "description: \"Change the aspect ratio of nodes using the context menu.\""
+                },
+                {
+                    "source": "description: `Change the zoom breakpoint (the zoom level at which the nodes won't render their content anymore) on a per-node basis using the ${VARIABLE_BREAKPOINT_CSS_VAR} CSS variable.`",
+                    "target": "description: `Change the zoom breakpoint (the zoom level at which the nodes won't render their content anymore) on a per-node basis using the ${VARIABLE_BREAKPOINT_CSS_VAR} CSS variable.`"
+                },
+                {
+                    "source": "description: \"Automatically resize the height of a node to fit the content.\"",
+                    "target": "description: \"Automatically resize the height of a node to fit the content.\""
+                },
+                {
+                    "source": "description: \"When enabled, the auto resize feature will be enabled by default for all nodes.\"",
+                    "target": "description: \"When enabled, the auto resize feature will be enabled by default for all nodes.\""
+                },
+                {
+                    "source": "description: \"The maximum height of the node when auto resizing (-1 for unlimited).\"",
+                    "target": "description: \"The maximum height of the node when auto resizing (-1 for unlimited).\""
+                },
+                {
+                    "source": "description: \"When enabled, the height of the node will snap to the grid.\"",
+                    "target": "description: \"When enabled, the height of the node will snap to the grid.\""
+                },
+                {
+                    "source": "description: \"Encapsulate a selection of nodes and edges into a new canvas using the context menu.\"",
+                    "target": "description: \"Encapsulate a selection of nodes and edges into a new canvas using the context menu.\""
+                },
+                {
+                    "source": "description: \"Improve the readonly mode.\"",
+                    "target": "description: \"Improve the readonly mode.\""
+                },
+                {
+                    "source": "description: \"When enabled, the background grid will be hidden when in readonly mode.\"",
+                    "target": "description: \"When enabled, the background grid will be hidden when in readonly mode.\""
+                },
+                {
+                    "source": "description: \"Highlight outgoing (and optionally incoming) edges of a selected node.\"",
+                    "target": "description: \"Highlight outgoing (and optionally incoming) edges of a selected node.\""
+                },
+                {
+                    "source": "description: \"When enabled, incoming edges will also be highlighted.\"",
+                    "target": "description: \"When enabled, incoming edges will also be highlighted.\""
+                },
+                {
+                    "source": "description: \"Select edges connected to the selected node(s) using the popup menu.\"",
+                    "target": "description: \"Select edges connected to the selected node(s) using the popup menu.\""
+                },
+                {
+                    "source": "description: \"Select incoming or outgoing edges using separate popup menu items.\"",
+                    "target": "description: \"Select incoming or outgoing edges using separate popup menu items.\""
+                },
+                {
+                    "source": "description: \"Focus on a single node and blur all other nodes.\"",
+                    "target": "description: \"Focus on a single node and blur all other nodes.\""
+                },
+                {
+                    "source": "textContent = \"Support the development of Advanced Canvas\"",
+                    "target": "textContent = \"Support the development of Advanced Canvas\""
+                },
+                {
+                    "source": "textContent = \"Node not found\"",
+                    "target": "textContent = \"Node not found\""
+                },
+                {
+                    "source": "textContent = \"0 / 0\"",
+                    "target": "textContent = \"0 / 0\""
+                },
+                {
+                    "source": "textContent = `${this.matchIndex + 1} / ${this.searchMatches.length}`",
+                    "target": "textContent = `${this.matchIndex + 1} / ${this.searchMatches.length}`"
+                },
+                {
+                    "source": "name: \"Group selected nodes\"",
+                    "target": "name: \"Group selected nodes\""
+                },
+                {
+                    "source": "name: \"Create new slide\"",
+                    "target": "name: \"Create new slide\""
+                },
+                {
+                    "source": "name: \"Set start node\"",
+                    "target": "name: \"Set start node\""
+                },
+                {
+                    "source": "name: \"Start presentation\"",
+                    "target": "name: \"Start presentation\""
+                },
+                {
+                    "source": "name: \"Continue presentation\"",
+                    "target": "name: \"Continue presentation\""
+                },
+                {
+                    "source": "name: \"End presentation\"",
+                    "target": "name: \"End presentation\""
+                },
+                {
+                    "source": "name: \"Previous node\"",
+                    "target": "name: \"Previous node\""
+                },
+                {
+                    "source": "name: \"Next node\"",
+                    "target": "name: \"Next node\""
+                },
+                {
+                    "source": "name: \"Encapsulate selection\"",
+                    "target": "name: \"Encapsulate selection\""
+                },
+                {
+                    "source": "link = `[[${file.path}#${nodeData.id}|${file.name} (${nodeTypeString} node)]]`",
+                    "target": "link = `[[${file.path}#${nodeData.id}|${file.name} (${nodeTypeString} node)]]`"
+                },
+                {
+                    "source": "name: \"Toggle readonly\"",
+                    "target": "name: \"Toggle readonly\""
+                },
+                {
+                    "source": "name: \"Create text node\"",
+                    "target": "name: \"Create text node\""
+                },
+                {
+                    "source": "name: \"Create file node\"",
+                    "target": "name: \"Create file node\""
+                },
+                {
+                    "source": "name: \"Select all edges\"",
+                    "target": "name: \"Select all edges\""
+                },
+                {
+                    "source": "name: \"Zoom to selection\"",
+                    "target": "name: \"Zoom to selection\""
+                },
+                {
+                    "source": "name: \"Zoom to fit\"",
+                    "target": "name: \"Zoom to fit\""
+                },
+                {
+                    "source": "name: `Clone node ${direction}`",
+                    "target": "name: `Clone node ${direction}`"
+                },
+                {
+                    "source": "name: `Expand node ${direction}`",
+                    "target": "name: `Expand node ${direction}`"
+                },
+                {
+                    "source": "name: `Navigate ${direction}`",
+                    "target": "name: `Navigate ${direction}`"
+                },
+                {
+                    "source": "name: \"Flip selection horizontally\"",
+                    "target": "name: \"Flip selection horizontally\""
+                },
+                {
+                    "source": "name: \"Flip selection vertically\"",
+                    "target": "name: \"Flip selection vertically\""
+                },
+                {
+                    "source": "name: \"Select connected edges\"",
+                    "target": "name: \"Select connected edges\""
+                },
+                {
+                    "source": "name: \"Select incoming edges\"",
+                    "target": "name: \"Select incoming edges\""
+                },
+                {
+                    "source": "name: \"Select outgoing edges\"",
+                    "target": "name: \"Select outgoing edges\""
+                },
+                {
+                    "source": "name: \"Swap nodes\"",
+                    "target": "name: \"Swap nodes\""
+                },
+                {
+                    "source": "name: \"Copy wikilink to node\"",
+                    "target": "name: \"Copy wikilink to node\""
+                },
+                {
+                    "source": "name: \"Pull outgoing links to canvas\"",
+                    "target": "name: \"Pull outgoing links to canvas\""
+                },
+                {
+                    "source": "name: \"Pull backlinks to canvas\"",
+                    "target": "name: \"Pull backlinks to canvas\""
+                },
+                {
+                    "source": "name: \"Toggle collapse group\"",
+                    "target": "name: \"Toggle collapse group\""
+                },
+                {
+                    "source": "name: \"Toggle Focus Mode\"",
+                    "target": "name: \"Toggle Focus Mode\""
+                },
+                {
+                    "source": "name: \"Export canvas as image\"",
+                    "target": "name: \"Export canvas as image\""
+                },
+                {
+                    "source": "name: \"Export selected nodes as image\"",
+                    "target": "name: \"Export selected nodes as image\""
+                },
+                {
+                    "source": "name = `${((_c = canvas.view.file) == null ? void 0 : _c.basename) || \"Untitled\"}`",
+                    "target": "name = `${((_c = canvas.view.file) == null ? void 0 : _c.basename) || \"Untitled\"}`"
+                },
+                {
+                    "source": "name = `${baseFilename}.${svg ? \"svg\" : \"png\"}`",
+                    "target": "name = `${baseFilename}.${svg ? \"svg\" : \"png\"}`"
+                },
+                {
+                    "source": "innerText = \"Generating image...\"",
+                    "target": "innerText = \"Generating image...\""
+                }
+            ]
+        }
+    }
+}

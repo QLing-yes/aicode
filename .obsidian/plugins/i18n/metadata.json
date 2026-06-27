@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 2,
+  "sources": {
+    "EIaGBA7ZVGZnEPLMsxQaGZGQf-4EUrgT": {
+      "id": "EIaGBA7ZVGZnEPLMsxQaGZGQf-4EUrgT",
+      "plugin": "obsidian42-brat",
+      "title": "[zh-tw] BRAT",
+      "type": "plugin",
+      "origin": "cloud",
+      "isActive": false,
+      "checksum": "c9bf171afd73995c915704c82e5aa4cdd6c1a12b72892ec2de4785553a4e40f5",
+      "cloud": {
+        "owner": "Chico890921",
+        "repo": "obsidian-translations",
+        "hash": "20531d2d20531d2d20531d2d20531d2d"
+      },
+      "updatedAt": 1781416575285,
+      "createdAt": 1781416575285
+    },
+    "hzef2oEvffE24JS11PVYn1TQLNYpv1u4": {
+      "id": "hzef2oEvffE24JS11PVYn1TQLNYpv1u4",
+      "plugin": "advanced-canvas",
+      "title": "Advanced Canvas",
+      "type": "plugin",
+      "origin": "local",
+      "isActive": true,
+      "checksum": "bf01f1369bc98f1253b0c63be363f59a8f56b48d2898b458bb693e4125cbc586",
+      "updatedAt": 1781416732176,
+      "createdAt": 1781416640555
+    }
+  }
+}

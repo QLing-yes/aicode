@@ -1,0 +1,17 @@
+{
+    "plugins": {
+        "obsidian42-brat": {
+            "id": "obsidian42-brat",
+            "isApplied": true,
+            "pluginVersion": "2.0.8",
+            "translationVersion": "2.0.8"
+        },
+        "advanced-canvas": {
+            "id": "advanced-canvas",
+            "isApplied": true,
+            "pluginVersion": "6.2.1",
+            "translationVersion": "1.0.0"
+        }
+    },
+    "themes": {}
+}
